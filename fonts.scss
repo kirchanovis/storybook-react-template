@@ -1,0 +1,119 @@
+@font-face {
+	font-family: 'sf_ui_regular';
+	src: url('./assets/fonts/SF-UI-Display-Regular.eot');
+	src: local('☺'), url('./assets/fonts/SF-UI-Display-Regular.woff') format('woff'), url('./assets/fonts/SF-UI-Display-Regular.ttf') format('truetype'), url('./assets/fonts/SF-UI-Display-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'sf_ui_semibold';
+	src: url('./assets/fonts/SFUIDisplay-Medium.eot');
+	src: local('☺'), url('./assets/fonts/SFUIDisplay-Medium.woff') format('woff'), url('./assets/fonts/SFUIDisplay-Medium.ttf') format('truetype'), url('./assets/fonts/SFUIDisplay-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin menu-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 14px;
+}
+
+@mixin tab-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@mixin tab-title-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@mixin card-caption-number-mobile {
+    font-family: 'sf_ui_semibold';
+    font-size: 26px;
+    line-height: 32px;
+}
+
+@mixin card-caption {
+    font-family: 'sf_ui_regular';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@mixin card-caption-decimals {
+    font-family: 'sf_ui_regular';
+    font-size: 16px;
+    line-height: 22px;
+}
+
+@mixin card-caption-number {
+    font-family: 'sf_ui_regular';
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -1px;
+}
+
+
+@mixin footer-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+@mixin card-link-font {
+    font-family: 'sf_ui_regular';
+    font-size: 12px;
+    line-height: 20px;
+}
+
+@mixin card-title-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@mixin custom-select-font {
+    font-family: 'sf_ui_regular';
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+@mixin card-caption-font {
+    font-family: 'sf_ui_regular';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin card-button-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+@mixin agree-font {
+    font-family: 'sf_ui_regular';
+    font-size: 12px;
+    line-height: 20px;
+}
+@mixin th-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 12px;
+    line-height: 20px;
+}
+
+@mixin pagination-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 14px;
+    line-height: 26px;
+}
+
+@mixin city-font {
+    font-family: 'sf_ui_semibold';
+    font-size: 16px;
+    line-height: 24px;
+}
